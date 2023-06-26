@@ -22,8 +22,7 @@ public class Main
 
     public static void main(String[] args)
     {
-        Main m = new Main();
-        Product p = m.new Product();
+        Product p = (new Main()).new Product();
         p.product(1,2);
         p.product(1,2,3);
         p.product(1.0,2.0);
